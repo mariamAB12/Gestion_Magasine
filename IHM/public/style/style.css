@@ -1,0 +1,66 @@
+/* Customize the navbar as needed */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+/* Customize the footer as needed */
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Responsiveness */
+@media (max-width: 767px) {
+    footer .row {
+        flex-direction: column;
+    }
+}
+.product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+/* Customize form appearance as desired */
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;  /* Bootstrap primary color */
+}
+
